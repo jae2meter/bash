@@ -101,6 +101,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 alias demoback='ssh demo@localhost -p 2001'
 alias src='cd $GOPATH/src'
+alias macen='ssh -R2001:localhost:22 -p 50000 eandstr@217.211.51.38'
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
