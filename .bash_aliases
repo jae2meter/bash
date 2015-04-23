@@ -1,4 +1,4 @@
-alias macen='ssh -R2001:localhost:22 -p 50000 eandstr@217.211.51.38'
+alias macen='ssh -R2001:localhost:22 -p 50000 user@217.211.51.38'
 alias demoback='ssh demo@localhost -p 2001'
 alias src='cd $GOPATH/src'
 

@@ -99,7 +99,6 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-alias macen='ssh -R2001:localhost:22 -p 50000 eandstr@217.211.51.38'
 alias demoback='ssh demo@localhost -p 2001'
 alias src='cd $GOPATH/src'
 
